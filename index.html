@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="language-selector">
+        <button class="language-btn" onclick="toggleLanguageMenu()">
+            <span class="lang-icon">🌐</span>
+            <span class="lang-text">EN</span>
+        </button>
+        <div class="language-menu" id="languageMenu">
+            <a href="#" onclick="changeLanguage('fr')" class="lang-option">
+                <span class="flag">🇫🇷</span> Français
+            </a>
+            <a href="#" onclick="changeLanguage('en')" class="lang-option">
+                <span class="flag">🇬🇧</span> English
+            </a>
+            <a href="#" onclick="changeLanguage('zh')" class="lang-option">
+                <span class="flag">🇨🇳</span> 中文
+            </a>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="oki">
+            <div class="card-image slider">
+        
+  <div class="slides">
+    <img src="560x420_c42_autohomecar__CjIFVGRHpDGAcMo8AAUmQytiqZM411.webp" alt="Voiture 1">
+    <img src="1400x1050_autohomecar__Chto52l8if6APv4IAA9dpQnCl3I132.jpg" alt="Voiture 2">
+    <img src="560x420_c42_autohomecar__Chto52oUNR2AGY6QAD7WqwaoQKA548.webp" alt="Voiture 3">
+    <img src="560x420_c42_autohomecar__Chto52pLzrWAPuBRAFXRZFvNOpY765.webp" alt="Voiture 4">
+    <img src="560x420_c42_autohomecar__ChxpV2o-MYOAIfRtACFez-NoW_A449.webp" alt="Voiture 5">
+    <img src="560x420_c42_autohomecar__ChxpWGpIOIOAOu7KACh1bmcTArE507.webp" alt="Voiture 6">
+    <img src="1400x1050_autohomecar__ChsEfl9jmwOAa9QbADuVx9k9swk053.jpg" alt="Voiture 7">
+    <img src="1400x1050_autohomecar__ChtliGPvcTqABdZiAHEpiHz9eHM795.jpg" alt="Voiture 8">
+    <img src="1400x1050_autohomecar__Chto52lX02eAe7HjAC6xpYd69kQ148.jpg" alt="Voiture 9">
+    <img src="1400x1050_autohomecar__Chto52naol2AdQ4WACa0RLNmCQE982.jpg" alt="Voiture 10">
+    <img src="1400x1050_autohomecar__Chto52oUNR2AHyEuADnGd_8pihk518.jpg" alt="Voiture 11">
+    <img src="1400x1050_autohomecar__Chto52oVWzqALFsZAB3HF5TS77050.jpeg" alt="Voiture 12">
+    <img src="1400x1050_autohomecar__Chto52pLzrWAPuBRAFXRZFvNOpY765.jpg" alt="Voiture 13">
+    <img src="1400x1050_autohomecar__ChtpWGjUP5aAO-QoACJ3jp7JHUU785.jpg" alt="Voiture 14">
+    <img src="1400x1050_autohomecar__ChtpWGl8if-AFOxUABSR5sY5Wp4782.jpg" alt="Voiture 15">
+    <img src="1400x1050_autohomecar__ChwFk19jmwWAKcnWACu2sza_kSc789.jpg" alt="Voiture 16">
+    <img src="1400x1050_autohomecar__ChwFkWMhfKuAR51hAFpd2pMTFhk215.jpg" alt="Voiture 17">
+    <img src="1400x1050_autohomecar__ChxkmWMhfLOAA9CcAEbT6AlnOfg924.jpg" alt="Voiture 18">
+    <img src="1400x1050_autohomecar__ChxkqWPp-yOAeH8FACRVm63dRAc809.jpg" alt="Voiture 19">
+    <img src="1400x1050_autohomecar__ChxpVmpE_3eAfrDHABw7buKBVKo227.jpg" alt="Voiture 20">
+    <img src="1400x1050_autohomecar__ChxpVmpLzrWAZ_lQAFd4SZ7_Eig230.jpg" alt="Voiture 21">
+    <img src="1400x1050_autohomecar__ChxpVWinJ7aAVbGiABwDJ4ygAPs090.jpg" alt="Voiture 22">
+    <img src="1400x1050_autohomecar__ChxpVWjYvdOAH9aYACT6Ig_4BpM192.jpg" alt="Voiture 23">
+    <img src="1400x1050_autohomecar__ChxpVWoUNR2AXwMJADf1M7c0YPI210.jpg" alt="Voiture 24">
+    <img src="1400x1050_autohomecar__ChxpWGnaoiyAXBrZACHTfVgovgA069.jpg" alt="Voiture 25">
+  </div>
+
+  <button class="prev" onclick="plusSlides(-1)">&#10094;</button>
+  <button class="next" onclick="plusSlides(1)">&#10095;</button>
+
+</div>
+
+<div class="cards-content">
+            <h2 class="price">GoodCar <span data-i18n="tagline"> Let's get you in the road</span></h2>
+            <p class="location" data-i18n="location"> Near Lycée Avedji Elavagnon, Lomé, Togo</p>
+            <iframe 
+    src="https://www.google.com/maps?q=Lyc%C3%A9e+Avedji+Elavagnon+Lom%C3%A9+Togo&output=embed" 
+    width="100%" 
+    height="200" 
+    style="border:0; border-radius: 10px;" 
+    allowfullscreen="" 
+    loading="lazy">
+  </iframe>
+
+         <div class="logo-carousel" id="carousel">
+          <div class="logos-track">
+            <div class="logos-slide">
+              <img src="logo_jetour.webp" alt="Jetour">
+              <img src="logo_chery.webp" alt="Chery">
+              <img src="logo_wuling.webp" alt="wuling">
+              <img src="logogac.webp" alt="GAC">
+              <img src="logoxpeng.webp" alt="Xpeng">
+              <img src="seres_logo.webp" alt="Seres">
+              <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/toyota.svg" alt="Toyota">
+              <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/ford.svg" alt="Ford">
+              <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/mercedes.svg" alt="Mercedes">
+              <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/bmw.svg" alt="BMW">
+              <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/audi.svg" alt="Audi">
+              <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/volkswagen.svg" alt="Volkswagen">
+              <img src="logo_jetour.webp" alt="Jetour" aria-hidden="true">
+              <img src="logo_chery.webp" alt="Chery" aria-hidden="true">
+              <img src="logo_wuling.webp" alt="wuling" aria-hidden="true">
+              <img src="logogac.webp" alt="GAC" aria-hidden="true">
+              <img src="logoxpeng.webp" alt="Xpeng" aria-hidden="true">
+              <img src="seres_logo.webp" alt="Seres" aria-hidden="true">
+              <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/toyota.svg" alt="Toyota" aria-hidden="true">
+              <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/ford.svg" alt="Ford" aria-hidden="true">
+              <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/mercedes.svg" alt="Mercedes" aria-hidden="true">
+              <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/bmw.svg" alt="BMW" aria-hidden="true">
+              <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/audi.svg" alt="Audi" aria-hidden="true">
+              <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/volkswagen.svg" alt="Volkswagen" aria-hidden="true">
+            </div>
+          </div>
+            </div>
+
+            <div class="footer">
+              <p class="signature" data-i18n="signature">We are your partner to drive with confidence ✨</p>
+            </div>
+
+             <div class="contact-buttons">
+        <a href="https://wa.me/22892148386" target="_blank" class="btn whatsapp">
+          <span class="btn-inner">
+            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/whatsapp.svg" alt="" class="btn-icon" aria-hidden="true">
+            <span class="btn-label" data-i18n="whatsapp">WhatsApp</span>
+          </span>
+        </a>
+        <a href="https://www.tiktok.com/@Auto prestige" target="_blank" class="btn tiktok">
+          <span class="btn-inner">
+            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/tiktok.svg" alt="" class="btn-icon" aria-hidden="true">
+            <span class="btn-label" data-i18n="tiktok">TikTok</span>
+          </span>
+        </a>
+        <a href="mailto:Pakystepha@gmail.com" class="btn mail">
+          <span class="btn-inner">
+            <svg class="btn-icon" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+              <path fill="currentColor" d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+            </svg>
+            <span class="btn-label" data-i18n="mail">Email</span>
+          </span>
+        </a>
+      </div>
+        </div>
+    </div>
+    <div>
+    <script src="index.js"></script>
+</body>
+</html>
