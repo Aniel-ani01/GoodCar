@@ -53,7 +53,7 @@ body{
 }
 .card{
     width: 340px;
-    background: url(2025-Jetour-T1-header-768x469.jpg.jpg) no-repeat center center;
+    background: url(2025-Jetour-T1-header-768x469.jpg) no-repeat center center;
     background-size: cover;
     border-radius: 28px;
     overflow: hidden;
