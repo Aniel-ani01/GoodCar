@@ -31,6 +31,47 @@
 .logo:hover {
     transform: scale(1.05);
 }
+.hero {
+  text-align: center;
+  padding: 40px 20px;
+  background: linear-gradient(135deg, #1a2a4e, #2a3f5e);
+  color: #fff;
+  border-radius: 20px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.2);
+}
+
+.hero-logo img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;       /* rond */
+  object-fit: cover;        /* recadrage */
+  border: 3px solid #fff;   /* cadre blanc */
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
+
+.hero-title {
+  font-size: 28px;
+  margin: 12px 0 6px;
+}
+
+.hero-tagline {
+  font-size: 16px;
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
+.hero-icons a {
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #ffd700; /* jaune doré pour ressortir */
+  transition: color 0.3s ease;
+}
+
+.hero-icons a:hover {
+  color: #fff;
+}
+
 
 body{
     background-color: #eef3f8;
