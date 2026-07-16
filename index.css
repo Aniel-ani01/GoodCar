@@ -8,16 +8,15 @@
 .hero-logo img {
   width: 60px;
   height: 60px;
-  border-radius: 50%;       /* rond */
+  border-radius: 50%;       
   box-shadow: 0 4px 12px rgba(0,0,0,0.3);
-  object-fit: cover;        /* garde les proportions */
+  object-fit: cover;   
   border: 3px solid #fff;
 }
 
 .hero-title {
   font-size: 28px;
   margin: 12px 0 6px;
-  justify-content: center;
   text-align: center;
   display: block;
   width: 100%;
@@ -27,7 +26,6 @@
   font-size: 16px;
   font-style: italic;
   margin-bottom: 20px;
-  justify-content: center;
   text-align: center;
   display: block;
   width: 100%;
@@ -151,7 +149,6 @@ body{
   overflow: hidden;
 }
 
-/* pause animation on hover for user control */
 .logo-carousel:hover .logos-track,
 .logos-track:hover {
   animation-play-state: paused;
