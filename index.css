@@ -18,6 +18,9 @@
   font-size: 28px;
   margin: 12px 0 6px;
   justify-content: center;
+  text-align: center;
+  display: block;
+  width: 100%;
 }
 
 .hero-tagline {
@@ -25,6 +28,10 @@
   font-style: italic;
   margin-bottom: 20px;
   justify-content: center;
+  text-align: center;
+  display: block;
+  width: 100%;
+  color: #7b8594;
 }
 
 
