@@ -1,49 +1,9 @@
-.header {
-    background: linear-gradient(135deg, #1a2a4e 0%, #2a3f5e 100%);
-    padding: 20px 0;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-    position: sticky;
-    top: 0;
-    z-index: 100;
-}
-
-
-.header-content {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    max-width: 400px;
-    margin: 0 auto;
-}
-
-.logo {
-    height: 60px;
-    object-fit: cover;
-    transition: transform 0.3s ease;
-    border-radius: 50%;
-    object-fit: cover;
-    width: 60px;
-    transition: transform 0.3s ease;
-    border: 3px solid #ffffff;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
-}
-
-.logo:hover {
-    transform: scale(1.05);
-}
-.hero {
-  text-align: center;
-  padding: 40px 20px;
-  background: linear-gradient(135deg, #1a2a4e, #2a3f5e);
-  color: #fff;
-  border-radius: 20px;
-  box-shadow: 0 6px 20px rgba(0,0,0,0.2);
-}
 .hero-logo {
-  display: inline-block;
+  display: flex;
   padding: 10px;              /* espace autour du logo */
-  background: #1a2a4e;        /* cercle bleu derrière */
-  border-radius: 50%;         /* cercle parfait */
+  justify-content: center;
+  border-radius: 50%;
+  margin-bottom: 12px;
 }
 
 .hero-logo img {
