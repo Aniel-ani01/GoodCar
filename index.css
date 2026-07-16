@@ -57,7 +57,7 @@ body{
     box-shadow: 0 22px 60px rgba(16, 36, 75, 0.12);
     border: 1px solid rgba(102, 122, 152, 0.12);
     animation: rainbowGlow 8s linear infinite;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(to bottom, #000000, #222222, #444444);
 }
 
 .card-image{
