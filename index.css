@@ -53,21 +53,12 @@ body{
 }
 .card{
     width: 340px;
-    background: url(2025-Jetour-T1-header-768x469.jpg) no-repeat center center;
-    background-size: cover;
+    background: #ffffff;
     border-radius: 28px;
     overflow: hidden;
     box-shadow: 0 22px 60px rgba(16, 36, 75, 0.12);
     border: 1px solid rgba(102, 122, 152, 0.12);
     animation: rainbowGlow 8s linear infinite;
-    position: relative;
-}
-.card::before{
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: rgba(255, 255, 255, 0.6);
-  border-radius: 28px;
 }
 
 .card-image{
