@@ -57,6 +57,7 @@ body{
     box-shadow: 0 22px 60px rgba(16, 36, 75, 0.12);
     border: 1px solid rgba(102, 122, 152, 0.12);
     animation: rainbowGlow 8s linear infinite;
+    background: url("FORREST-GREEN.jpg") no-repeat center center / cover;
 }
 
 .card-image{
