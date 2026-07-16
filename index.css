@@ -39,10 +39,16 @@
   border-radius: 20px;
   box-shadow: 0 6px 20px rgba(0,0,0,0.2);
 }
+.hero-logo {
+  display: inline-block;
+  padding: 10px;              /* espace autour du logo */
+  background: #1a2a4e;        /* cercle bleu derrière */
+  border-radius: 50%;         /* cercle parfait */
+}
 
 .hero-logo img {
-  width: 120px;
-  height: 120px;
+  width: 100px;
+  height: 100px;
   border-radius: 50%;       /* rond */
   object-fit: cover;        /* recadrage */
   border: 3px solid #fff;   /* cadre blanc */
