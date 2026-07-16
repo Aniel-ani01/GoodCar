@@ -6,8 +6,8 @@
 }
 
 .hero-logo img {
-  width: 100px;
-  height: 100px;
+  width: 60px;
+  height: 60px;
   border-radius: 50%;       /* rond */
   object-fit: cover;        /* recadrage */
   border: 3px solid #fff;   /* cadre blanc */
