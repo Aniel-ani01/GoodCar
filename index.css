@@ -53,12 +53,14 @@ body{
 }
 .card{
     width: 340px;
-    background: #ffffff;
+    background: url(FORREST.png) no-repeat center center;
+    background-size: cover;
     border-radius: 28px;
     overflow: hidden;
     box-shadow: 0 22px 60px rgba(16, 36, 75, 0.12);
     border: 1px solid rgba(102, 122, 152, 0.12);
     animation: rainbowGlow 8s linear infinite;
+    position: relative;
 }
 
 .card-image{
