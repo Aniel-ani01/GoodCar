@@ -9,8 +9,6 @@
   width: 60px;
   height: 60px;
   border-radius: 50%;       /* rond */
-  object-fit: cover;        /* recadrage */
-  border: 3px solid #fff;   /* cadre blanc */
   box-shadow: 0 4px 12px rgba(0,0,0,0.3);
 }
 
