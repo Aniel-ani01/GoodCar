@@ -24,7 +24,6 @@
   text-align: center;
   display: block;
   width: 100%;
-  color: orange;
 }
 
 .hero-tagline {
@@ -59,12 +58,7 @@ body{
     border: 1px solid rgba(102, 122, 152, 0.12);
     animation: rainbowGlow 8s linear infinite;
     background: url(interrior);
-    background: linear-gradient(
-    to bottom,
-    #000000,   
-    #0a1a3f,  
-    #ff6600    
-   );
+    
   }
 
 .card-image{
