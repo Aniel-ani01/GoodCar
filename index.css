@@ -58,7 +58,9 @@ body{
     border: 1px solid rgba(102, 122, 152, 0.12);
     animation: rainbowGlow 8s linear infinite;
     background: url(interrior);
-    
+    linear-gradient(135deg, #000000 0%, #0a1a3f 40%, #ff6600 100%) , 
+    linear-gradient(45deg, rgba(255,255,255,0.15) 0%, rgba(255,255,255,0) 60%); 
+  background-blend-mode: overlay;
   }
 
 .card-image{
