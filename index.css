@@ -24,10 +24,10 @@
   text-align: center;
   display: block;
   width: 100%;
+  color: #ff6600;
+  text-shadow: 2px 2px 6px rgba(0,0,0,0.4);
 }
-.h1{
-   color: #fff;
-}
+
 .hero-tagline {
   font-size: 16px;
   font-style: italic;
