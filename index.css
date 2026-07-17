@@ -24,6 +24,7 @@
   text-align: center;
   display: block;
   width: 100%;
+   color: #ff6600;
 }
 
 .hero-tagline {
@@ -34,12 +35,6 @@
   display: block;
   width: 100%;
   color: #7b8594;
-}
-
-.brand {
-  font-size: 32px;
-  font-weight: bold;
-  color: #ff6600; 
 }
 
 body{
